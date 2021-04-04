@@ -19,6 +19,8 @@ class Concentration {
         for identifier in 1...numberOfPairsOfCards {
             let card = Card(identifier: identifier)
             let matchingCard = card
+            cards.append(card)
+            cards.append(matchingCard)
         }
     }
 }

@@ -12,6 +12,10 @@ struct Card {
     var isMatched = false
     var identifier: Int
     
+    static func getUniqueIdentifier() -> Int {
+        return 0
+    }
+    
     init(identifier: Int) {
         self.identifier = identifier
     }
